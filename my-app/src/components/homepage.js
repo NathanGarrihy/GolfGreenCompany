@@ -10,14 +10,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <div>
-                <head>
-                    <title>HomePage</title>
-                    <meta charSet="utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
-                </head>
                 <body>
-                    <div className="App">
-                    </div>
                     <Container>
                         <Row>
                             <Col>

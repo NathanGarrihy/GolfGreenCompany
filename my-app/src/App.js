@@ -9,6 +9,7 @@ import Navigation from './components/navigation';
 import Homepage from './components/homepage';
 import HomeCarousel from './components/homeCarousel';
 import Gallery from './components/gallery';
+import Contact from './components/contact';
 
 // css
 import './App.css';
@@ -17,18 +18,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <Navigation/>
-      <br/><br/><br/>
-      <HomeCarousel/>
-      <header className="App-header">
-      <Switch>
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/homepage" component={Homepage} />
-          <Route exact path="/gallery" component={Gallery} />
+      <head>
+        <title>GolfGreenCompany</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <div className="App">
+        <Navigation />
+        <br /><br /><br />
+        <HomeCarousel />
+        <header className="App-header">
+          <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/homepage" component={Homepage} />
+            <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
-      </header>
-    </div>
+        </header>
+      </div>
     </BrowserRouter>
   );
 }

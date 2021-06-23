@@ -34,6 +34,17 @@
   color: white;
 }
 
+.App body {
+  margin: 0px auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.418);
+  float: left;
+  padding: 10px;
+  border: 30px solid #212529;
+  position: relative;
+  z-index: 10;
+}
+
 .App ul {
   text-align: left;
 }
