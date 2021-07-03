@@ -40,9 +40,25 @@
   background-color: rgba(255, 255, 255, 0.418);
   float: left;
   padding: 10px;
-  border: 30px solid #212529;
+  border: 30px solid #212121;
   position: relative;
   z-index: 10;
+}
+
+.Gallery {
+  margin: 0px auto;
+  width: 85%;
+  background-color: rgba(255, 255, 255, 0.418);
+  float: left;
+  padding: 10px;
+  border: 40px solid #212121;
+  position: relative;
+  z-index: 10;
+
+}
+
+.footer li {
+  text-align: center;
 }
 
 .App ul {

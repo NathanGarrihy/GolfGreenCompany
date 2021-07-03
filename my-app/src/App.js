@@ -10,6 +10,7 @@ import Homepage from './components/homepage';
 import HomeCarousel from './components/homeCarousel';
 import Gallery from './components/gallery';
 import Contact from './components/contact';
+import FooterPage from './components/footer';
 
 // css
 import './App.css';
@@ -35,6 +36,9 @@ function App() {
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </header>
+        <footer>
+          <FooterPage/>
+        </footer>
       </div>
     </BrowserRouter>
   );
