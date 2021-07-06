@@ -11,6 +11,8 @@ import HomeCarousel from './components/homeCarousel';
 import Gallery from './components/gallery';
 import Contact from './components/contact';
 import FooterPage from './components/footer';
+import AddImage from './components/addImage.component';
+import DeleteImage from './components/deleteImage.component';
 
 // css
 import './App.css';
@@ -34,6 +36,8 @@ function App() {
             <Route exact path="/homepage" component={Homepage} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/addImage" component={AddImage}/>
+            <Route exact path="/deleteImage" component={DeleteImage}/>
           </Switch>
         </header>
         <footer>

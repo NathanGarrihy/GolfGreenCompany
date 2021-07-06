@@ -16,7 +16,7 @@ export default class Navigation extends Component {
                         <Link className="App-link" to={"/about"}>About Us</Link>
                     </div>
                     <div className="collapse navbar-collapse">
-                        <Link className="App-link" to={"/gallery"}>Gallery</Link>
+                        <a href="gallery">Gallery</a>
                     </div>
                     <div className="collapse navbar-collapse">
                         <Link className="App-link" to={"/contact"}>Contact Us</Link>
