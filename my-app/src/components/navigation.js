@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom"; 
 import logo from '../putting-green-removebg-preview.png'
 
 export default class Navigation extends Component {
@@ -10,16 +10,16 @@ export default class Navigation extends Component {
                     <h1 className="navbar-brand" to={"/homepage"}><b>The Golf Green Company</b></h1>
                     <img height='70' width='120' src={logo} alt="logo" />
                     <div className="collapse navbar-collapse">
-                        <Link className="App-link" to={"/homepage"}>Home</Link>
+                        <NavLink className="App-link" to={"/homepage"}>Home</NavLink>
                     </div>
                     <div className="collapse navbar-collapse">
-                        <Link className="App-link" to={"/about"}>About Us</Link>
+                        <NavLink className="App-link" to={"/about"}>About Us</NavLink>
                     </div>
                     <div className="collapse navbar-collapse">
                         <a href="gallery">Gallery</a>
                     </div>
                     <div className="collapse navbar-collapse">
-                        <Link className="App-link" to={"/contact"}>Contact Us</Link>
+                        <NavLink className="App-link" to={"/contact"}>Contact Us</NavLink>
                     </div>
                 </div>
             </nav>

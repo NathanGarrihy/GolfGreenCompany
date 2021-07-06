@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/esm/Row";
+import logo from '../putting-green-removebg-preview.png'
 
 export default class FooterPage extends Component {
     render() {
@@ -53,7 +54,8 @@ export default class FooterPage extends Component {
                             </ul>
                         </Row>
                     </div>
-
+                    
+                    <img height='70' width='120' src={logo} alt="logo" />
                     <div class="text-center p-3" >
                         &copy; {new Date().getFullYear()} Copyright: <a href="https://thegolfgreencompany.com"> thegolfgreencompany.com </a>
                     </div>
