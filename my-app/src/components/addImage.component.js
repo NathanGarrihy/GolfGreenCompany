@@ -84,7 +84,7 @@ export default class AddImage extends Component {
         let myToken = localStorage.getItem('token');
 
         if (this.state.itemAdded) {
-            alert("This image has been added to the gallery");
+            alert("The image has been Added to the gallery");
             this.state.itemAdded = false;
             return <Redirect to={'/addImage'} />
         }

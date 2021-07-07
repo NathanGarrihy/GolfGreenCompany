@@ -3,7 +3,6 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
 } from 'reactstrap';
-import { Redirect } from "react-router";
 import axios from "axios";
 import Login from "./login";
 
@@ -73,9 +72,9 @@ export default class DeleteImage extends Component {
         let myToken = localStorage.getItem('token');
 
         if (this.state.itemDeleted) {
-            alert("This image has been added to the gallery");
+            alert("The image has been Deleted from the gallery");
             this.state.itemDeleted = false;
-            return <Redirect to={'/deleteImage'} />
+            window.location.reload(false);
         }
 
         if (myToken && myUser != null) {
