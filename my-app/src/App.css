@@ -15,7 +15,7 @@
 
 .App-header {
   background-image: url(background.jpg);
-  background-repeat: repeat-y;
+  background-repeat: repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +23,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: green;
-  text-decoration: none;
 }
 
 /* Website name text color */
@@ -65,8 +60,45 @@
 .App ul {
   text-align: left;
 }
+
 .App a {
+  /* color: green;
+  font-size: 1.4rem;
+  line-height: 1.4rem;*/
+  font-weight: bold; 
   color: green;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* background-color: rgba(0, 0, 0, 100); */
+}
+
+/* general link */
+.Nav a {
+  /* color: green;
+  font-size: 1.4rem;
+  line-height: 1.4rem;*/
+  font-weight: bold; 
+  color: green;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #212121;
+  border: solid 1px green
+}
+
+/* visited link */
+.Nav a:visited {
+  color: darkgreen;
+}
+
+/* mouse over link */
+.Nav a:hover {
+  color: lightgreen;
+  background-color: rgb(65, 65, 65);
 }
 
 @keyframes App-logo-spin {

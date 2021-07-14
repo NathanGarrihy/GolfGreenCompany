@@ -43,7 +43,7 @@ export default class FooterPage extends Component {
                                     <a href="homepage">Homepage</a>
                                 </li>
                                 <li className="list-unstyled">
-                                    <a href="about">About Us</a>
+                                    <a href="about">About</a>
                                 </li>
                                 <li className="list-unstyled">
                                     <a href="gallery">Gallery</a>
